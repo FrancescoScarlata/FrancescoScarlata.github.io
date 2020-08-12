@@ -55,7 +55,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: #eee;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -321,4 +321,29 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+
+/*CHANGES IN THE CSS FILE */
+
+.main-col{
+	float: right;
+
+	width: 70%;
+	border-style:solid;
+	margin: 20px;
+
+}
+
+.sidebar-col{
+	float: left;
+	width:28%;
+	border-style:dotted;
+	margin: 50px;
+}
+
+
+
+#MyName,#Jobs{
+	font-family: "Times New Roman", Times, serif;
 }
