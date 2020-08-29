@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Market of Freedonia</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/webgl_ ECJ.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/webgl_ ECJ.data",
+        frameworkUrl: "Build/webgl_ ECJ.framework.js",
+        codeUrl: "Build/webgl_ ECJ.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Reaper Clarris Eirrann",
+        productName: "Market of Freedonia",
+        productVersion: "0.1",
+      });
+    </script>
+  </body>
+</html>
