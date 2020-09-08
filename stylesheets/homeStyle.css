@@ -63,11 +63,12 @@ body, html {
 
 #MyName{		
 	font-size: 40pt;
-	font-size: 4vw;
+	font-size: min(4vw, 50px);
 }
 
 #Jobs{		
-	font-size: 18pt;
+	font-size: 24pt;
+	font-size: min(2vw, 24px);
 }
 
 

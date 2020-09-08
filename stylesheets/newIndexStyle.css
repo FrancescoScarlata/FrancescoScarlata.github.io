@@ -41,14 +41,17 @@ body {
 .row {  
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%;
+  flex: 25%;
    /* background-color: #444; */
   padding: 20px;
+  min-width:270px;
+  max-width:270px;
 }
 
 /* Main column */
@@ -56,6 +59,7 @@ body {
   flex: 70%;
   /*background-color: #666; */
   padding: 20px;
+  
 }
 
 /* Fake image, just for this example */
@@ -318,16 +322,18 @@ hr {
   background:#777;
   height:1px;
   margin:10px 0px 10px; /* top, left, bottom */
-  max-width: 40%;
+  max-width: 100px;
 }
 
 footer {
+	background-color: rgba(10,10,10,0.7);
+	padding-top:10px;
+	padding-bottom:5px;
 	width:100%;
 	text-align: center;
 	position:fixed;
-	bottom:10px;
+	bottom:-20px;
 	-webkit-font-smoothing:subpixel-antialiased;
-  
 }
 
 
