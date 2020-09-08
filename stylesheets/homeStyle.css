@@ -1,0 +1,82 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+.bg{
+	/* The image used */
+  background-image: url("../resources/images/Background_Home.png"), url("../resources/images/Background_Home2.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buttons{
+	font-size: 12pt;
+	font-size: min(3vw, 30px);
+	
+	border-radius: 30px;
+	background-color: #444;
+	color: ddd;
+	margin-top:30px;
+	margin-bottom:50px;
+	
+}
+
+.logos{
+	font-size: 12pt;
+	height:8%;
+	width:8%;
+	border-radius: 10px;
+	margin: 1%;
+
+}
+
+
+.nameInfos{
+	position: absolute;
+	top: 40%;
+	left:50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+}
+
+
+.homeInfos{
+	position: absolute;
+	top: 80%;
+	left:50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+}
+
+
+#MyName{		
+	font-size: 40pt;
+	font-size: 4vw;
+}
+
+#Jobs{		
+	font-size: 18pt;
+}
+
+
+#portfolio{
+	
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
