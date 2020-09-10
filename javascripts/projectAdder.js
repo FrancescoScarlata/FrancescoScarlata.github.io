@@ -17,8 +17,9 @@ function loadDoc() {
 	This will also call the for the correct order to show
   */
 function LoadJson(xml) {
-	
-	jsonObj= JSON.parse(xml.responseText);
+	var text= xml.responseText;
+	alert("text pre parse: "+text);
+	jsonObj= JSON.parse(text);
 	alert("projects length: "+jsonObj.projects.length);
 
 	if(document.title=="FS Portfolio" ){
