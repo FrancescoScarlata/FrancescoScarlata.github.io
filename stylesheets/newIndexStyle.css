@@ -56,9 +56,12 @@ body {
 
 /* Main column */
 .main {
-  flex: 70%;
-  /*background-color: #666; */
-  padding: 20px;
+	flex: 70%;
+	display:flex;
+	align-items: center;
+	flex-direction:column;
+	/*background-color: #666; */
+	padding: 20px;
   
 }
 
@@ -85,7 +88,7 @@ body {
 
 
 /* FROM THE OLD STYLES DOC */
-
+/*
 @font-face {
   font-family: 'Noto Sans';
   font-weight: 400;
@@ -141,7 +144,7 @@ body {
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf') format('truetype'),
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
-
+*/
 body {
   background-color: #555;
   
@@ -338,7 +341,7 @@ footer {
 
 
 
-/* MY CHANGES */
+/* MY CHANGES. Need to check a new font */
 
 span.job-field{
 	font-family: "Times New Roman", Times, serif;
@@ -350,9 +353,17 @@ span.job-field{
 	font-family: "Times New Roman", Times, serif;
 	font-size: 14pt;
 	font-weight: 800;
+	padding: 0px 0px 0px 10px; 
 }
 
-#MyName,#Jobs{
+#MyName{
+	font-family: "Times New Roman", Times, serif; 
+	color: #00dd00; /* Need to find a cool color */
+	
+}
+
+
+#Jobs{
 	font-family: "Times New Roman", Times, serif;
 }
 

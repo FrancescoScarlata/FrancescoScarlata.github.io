@@ -1,0 +1,41 @@
+
+/* Intro section. This will have the Title, a description and the featured title*/
+.intro {
+	border: 1px dotted red;
+	text-align: center;
+	width: 95%;
+
+}
+
+.projects {
+	border: 1px dotted white;
+	width: 90%;
+	display: block;
+	
+}
+
+.project {
+	float: left;
+	border: 1px dotted yellow;
+	width: 50%;
+}
+
+#porfolioTitle{
+	font-size: 40pt;
+	font-size: min(4vw, 50px);
+	
+}
+
+@media screen and (max-width: 950px) {
+	
+	.projectImage{
+	
+		width: 100%;
+
+	}
+	
+	.project {
+	float: left;
+	border: 1px dotted yellow;
+	width: 100%;
+}
