@@ -20,7 +20,7 @@ var jsonObj;
 
 /* This method will open the doc in the path and then it will parse it as json*/
 function loadDoc(portfolioType) {
-	/*
+	
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -29,7 +29,7 @@ function loadDoc(portfolioType) {
   };
   xhttp.open("GET", path, true);
   xhttp.send();
-  */
+  
   console.log("i've been called with: "+portfolioType);
   loadJson(this,portfolioType);
 }
@@ -39,17 +39,12 @@ function loadDoc(portfolioType) {
   */
 function loadJson(xml,portfolioType) {
 	
-	/*var text= xml.responseText;
-	alert("text pre parse: "+text);*/
+	var text= xml.responseText;
+	console.log("text pre parse: "+text);
 	
-	jsonObj= JSON.parse(jsonString);
-	if(document.title=="FS Portfolio" ){
-		getPorfolio(portfolioType);
+	jsonObj= JSON.parse(text); // jsonstring to test
 	
-	}
-	else{
-		console.log(" this is not the general portfoliopage");
-	}
+	getPorfolio(portfolioType);
 }
 
 

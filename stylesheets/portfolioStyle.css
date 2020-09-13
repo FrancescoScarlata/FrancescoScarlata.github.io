@@ -38,7 +38,7 @@
 
 .infoDiv{
 	text-align: center;
-	height: 100px;
+	height: 80px;
 	background-color: rgba(20, 20, 20, 0.7);
 	
 }
@@ -67,6 +67,6 @@
 	
 	.project {
 	float: left;
-	border: 1px dotted yellow;
+	/*border: 1px dotted yellow;*/
 	width: 100%;
 }
