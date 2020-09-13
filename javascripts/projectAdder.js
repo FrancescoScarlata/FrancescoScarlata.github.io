@@ -30,7 +30,7 @@ function loadDoc(portfolioType) {
   xhttp.open("GET", path, true);
   xhttp.send();
   */
-  alert("i've been called with: "+portfolioType);
+  console.log("i've been called with: "+portfolioType);
   loadJson(this,portfolioType);
 }
 
