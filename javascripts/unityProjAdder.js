@@ -1,7 +1,7 @@
 import { loadDoc } from './projectAdder.js';
 
 function loadGeneral(){
-	alert("loadUnity");
+	console.log("loadUnity");
 	loadDoc("games");
 }
 

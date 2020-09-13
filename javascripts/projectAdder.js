@@ -10,8 +10,8 @@ var jsonString=	'{"projects" : ['+
 	'"description": "This game was made during the ...", "externalLink": "https://polimi-game-collective.itch.io/diandao" ,"projectType" : "games", '+
 	'"projectPriority": "high", "video":"" },'+
 
-	'{ "title": "Uno-Java", "date": "July 2020", "linkImage": "resources/images/robodoom01.png",'+
-	'"description": "This game was made during the ...", "externalLink": " " ,"projectType" : "programs",'+
+	'{ "title": "Uno! (Java)", "date": "July 2020", "linkImage": "resources/images/uno01.jpg",'+
+	'"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/Uno_ita","projectType" : "programs",'+
 	'"projectPriority": "high", "video":"" }'+
 ']}';
 

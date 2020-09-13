@@ -1,7 +1,7 @@
 import { loadDoc } from './projectAdder.js';
 
 function loadGeneral(){
-	alert("loadGeneral");
+	console.log("loadGeneral");
 	loadDoc("general");
 }
 
