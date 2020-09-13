@@ -20,18 +20,19 @@ var jsonObj;
 
 /* This method will open the doc in the path and then it will parse it as json*/
 function loadDoc(portfolioType) {
+	console.log("i've been called with: "+portfolioType);
 	
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      LoadJson(this);
+      loadJson(this,portfolioType);
     }
   };
   xhttp.open("GET", path, true);
   xhttp.send();
   
-  console.log("i've been called with: "+portfolioType);
-  loadJson(this,portfolioType);
+  
+  //loadJson(this,portfolioType);
 }
 
 /* This method will load the text and it will be used to parse it as jsonObj.
