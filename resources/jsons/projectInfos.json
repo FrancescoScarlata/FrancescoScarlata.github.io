@@ -1,14 +1,14 @@
 {
 "projects" : [
 
-	{ "title": "Robodoom", "date": "July 2020", "linkImage": "../resources/images/robodoom01.png", 
-	"description": "This game was made during the ...", "linkItchio": "https://reaperscarl.itch.io/robo-doom" , "projectType" : "games","projectPriority": "Low", "video":"" },
+	{ "title": "Robodoom", "date": "July 2020", "linkImage": "resources/images/robodoom01.png", 
+	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/robo-doom" , "projectType" : "games","projectPriority": "low", "video":"" },
 
-	{ "title": "Diandao", "date": "July 2020", "linkImage": "../resources/images/diandao01.png", 
-	"description": "This game was made during the ...", "linkItchio": "https://polimi-game-collective.itch.io/diandao" ,"projectType" : "games","projectPriority": "High", "video":"" }
+	{ "title": "Diandao", "date": "July 2020", "linkImage": "resources/images/diandao01.png", 
+	"description": "This game was made during the ...", "externalLink": "https://polimi-game-collective.itch.io/diandao" ,"projectType" : "games", "projectPriority": "high" , "video":"" },
 
-	{ "title": "Uno-Java", "date": "July 2020", "linkImage": "../resources/images/robodoom01.png",
-	"description": "This game was made during the ...", "linkItchio": " " ,"projectType" : "programs","projectPriority": "High", "video":"" }
+	{ "title": "Uno-Java", "date": "July 2020", "linkImage": "resources/images/robodoom01.png",
+	"description": "This game was made during the ...", "externalLink": " " ,"projectType" : "programs","projectPriority": "high", "video":"" }
 
 
 ]}
