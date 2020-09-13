@@ -51,12 +51,11 @@ function loadJson(xml,portfolioType) {
 		console.log(" this is not the general portfoliopage");
 	}
 }
+
+
 /* This method is called to make the sections inside the portfolio. For now it's just the general porfolio with all the elements in random */
 
-function getPorfolio(portfolioType){
-	
-	alert(portfolioType);
-	
+function getPorfolio(portfolioType){	
 	console.log("projects: "+jsonObj.projects.length);
 	var highProjParent= document.getElementById("highProj");
 	var lowProjParent= document.getElementById("lowProj");
@@ -72,53 +71,57 @@ function getPorfolio(portfolioType){
 	var i;
 	for(i=0; i<jsonObj.projects.length; i++){
 		
-		section= document.createElement("section");
-		section.setAttribute("class","project");
-		
-		img= document.createElement("img");
-		img.setAttribute("class","projectImage");
-		img.setAttribute("src", jsonObj.projects[i].linkImage);
-		img.setAttribute("alt", jsonObj.projects[i].title);
-		
-		if(jsonObj.projects[i].externalLink.length>1){
-			extlink=document.createElement("a");
-			extlink.setAttribute("href", jsonObj.projects[i].externalLink);
-			extlink.setAttribute("target", "_blank");
-			extlink.appendChild(img);
-			section.appendChild(extlink);
-		}
-		else{
+		if(portfolioType=="general" || jsonObj.projects[i].projectType==portfolioType)
+		{
+			section= document.createElement("section");
+			section.setAttribute("class","project");
 			
-			section.appendChild(img);
-		}
+			img= document.createElement("img");
+			img.setAttribute("class","projectImage");
+			img.setAttribute("src", jsonObj.projects[i].linkImage);
+			img.setAttribute("alt", jsonObj.projects[i].title);
+			
+			if(jsonObj.projects[i].externalLink.length>1){
+				extlink=document.createElement("a");
+				extlink.setAttribute("href", jsonObj.projects[i].externalLink);
+				extlink.setAttribute("target", "_blank");
+				extlink.appendChild(img);
+				section.appendChild(extlink);
+			}
+			else{
+				
+				section.appendChild(img);
+			}
 
-		innerDiv= document.createElement("div");
-		innerDiv.setAttribute("class", "infoDiv");
-		spanTitle= document.createElement("span");
-		spanTitle.setAttribute("class","projectTitle");
-		spanTitle.innerHTML=jsonObj.projects[i].title;
-		
-		spanDate= document.createElement("span");
-		spanDate.setAttribute("class","projectDate");
-		spanDate.innerHTML=jsonObj.projects[i].date;
-		
-		spanType= document.createElement("span");
-		spanType.setAttribute("class","projectType");
-		spanType.innerHTML=jsonObj.projects[i].projectType;
-		
-		innerDiv.appendChild(spanTitle);
-		innerDiv.appendChild(document.createElement("br"));
-		innerDiv.appendChild(spanDate);
-		innerDiv.appendChild(document.createElement("br"));
-		innerDiv.appendChild(spanType);
-		
-		section.appendChild(innerDiv);
-		if(jsonObj.projects[i].projectPriority=="high"){
-			highProjParent.appendChild(section);
+			innerDiv= document.createElement("div");
+			innerDiv.setAttribute("class", "infoDiv");
+			spanTitle= document.createElement("span");
+			spanTitle.setAttribute("class","projectTitle");
+			spanTitle.innerHTML=jsonObj.projects[i].title;
+			
+			spanDate= document.createElement("span");
+			spanDate.setAttribute("class","projectDate");
+			spanDate.innerHTML=jsonObj.projects[i].date;
+			
+			spanType= document.createElement("span");
+			spanType.setAttribute("class","projectType");
+			spanType.innerHTML=jsonObj.projects[i].projectType;
+			
+			innerDiv.appendChild(spanTitle);
+			innerDiv.appendChild(document.createElement("br"));
+			innerDiv.appendChild(spanDate);
+			innerDiv.appendChild(document.createElement("br"));
+			innerDiv.appendChild(spanType);
+			
+			section.appendChild(innerDiv);
+			if(jsonObj.projects[i].projectPriority=="high"){
+				highProjParent.appendChild(section);
+			}
+			else{
+				lowProjParent.appendChild(section);
+			}	
 		}
-		else{
-			lowProjParent.appendChild(section);
-		}	
+		
 	}	
 }
 
