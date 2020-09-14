@@ -7,23 +7,26 @@
 	{ "title": "Diandao", "date": "Febrary/June 2018", "linkImage": "resources/images/diandao01.png", 
 	"description": "This game was made during the ...", "externalLink": "https://polimi-game-collective.itch.io/diandao" ,"projectType" : "games", "projectPriority": "high" , "video":"" },
 		
+	{ "title": "Market of Freedonia", "date": "August 2020", "linkImage": "resources/images/market01.png", 
+	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/market-of-freedonia" , "projectType" : "games","projectPriority": "high", "video":"" },
+	
 	{ "title": "Fantasy Coaster VR", "date": "January 2018", "linkImage": "resources/images/fantasyCoasterVR01.png", 
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/fantasy-coaster-vr" ,"projectType" : "games", "projectPriority": "high" , "video":"" },
-
-	{ "title": "Market of Freedonia", "date": "August 2020", "linkImage": "resources/images/market01.png", 
-	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/market-of-freedonia" , "projectType" : "games","projectPriority": "low", "video":"" },
 
 	{ "title": "Robodoom", "date": "July 2020", "linkImage": "resources/images/robodoom01.png", 
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/robo-doom" , "projectType" : "games","projectPriority": "low", "video":"" },
 
 	{ "title": "Millwars", "date": "June 2017", "linkImage": "resources/images/millwars01.png", 
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/millwars" ,"projectType" : "design", "projectPriority": "low" , "video":"" },
+	
+	{ "title": "Gennir Chronicles", "date": "January 2017", "linkImage": "resources/images/chronicles01.png", 
+	"description": "This game was made during the ...", "externalLink": "" ,"projectType" : "design", "projectPriority": "low" , "video":"" },
 
 	{ "title": "The big twins", "date": "June 2015", "linkImage": "resources/images/theBigTwins01.png", 
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/the-big-twins" ,"projectType" : "games", "projectPriority": "low" , "video":"" },
 
 	{ "title": "Uno! (Java)", "date": "July 2013", "linkImage": "resources/images/uno01.jpg",
-	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/Uno_ita" ,"projectType" : "programs","projectPriority": "high", "video":"" }
+	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/Uno_ita" ,"projectType" : "programming","projectPriority": "high", "video":"" }
 
 
 ]}
