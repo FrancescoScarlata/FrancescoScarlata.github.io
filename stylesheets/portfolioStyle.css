@@ -45,10 +45,17 @@ body{
 	font-weight: 800;
 }
 
+.projectImage{
+	
+		width: 100%;
+
+	}
+	
+
 .infoDiv{
 	text-align: center;
-	height: 80px;
-	background-color: rgba(20, 20, 20, 0.7);
+	height: 90px;
+	background-color: rgba(20, 20, 20, 0.5);
 	
 }
 

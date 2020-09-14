@@ -22,11 +22,19 @@
 	{ "title": "Jennir Chronicles", "date": "January 2017", "linkImage": "resources/images/chronicles01.png", 
 	"description": "This game was made during the ...", "externalLink": "" ,"projectType" : "design", "projectPriority": "low" , "video":"" },
 
-	{ "title": "The duck game (bachelor degree dissertation project)", "date": "Febrary 2016", "linkImage": "resources/images/duckGame01.png", 
+	{ "title": "The duck game (bachelor degree dissertation project)", "date": "January 2016", "linkImage": "resources/images/duthGame01.png", 
 	"description": "This game was made during the ...", "externalLink": "BrowserProjects/tesi/index" ,"projectType" : "games", "projectPriority": "low" , "video":"" },
 
 	{ "title": "The big twins", "date": "June 2015", "linkImage": "resources/images/theBigTwins01.png", 
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/the-big-twins" ,"projectType" : "games", "projectPriority": "low" , "video":"" },
+
+
+	{ "title": "Decision Tree Classifier (Python)", "date": "September 2018", "linkImage": "resources/images/uno01.jpg",
+	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/DecisionTreeClassifier" ,"projectType" : "programming","projectPriority": "high", "video":"" },
+	
+	{ "title": "HRV using webcam recording (Python)", "date": "July 2018", "linkImage": "resources/images/uno01.jpg",
+	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/IN-MCA_Scarlata" ,"projectType" : "programming","projectPriority": "high", "video":"" },
+
 
 	{ "title": "Uno! (Java)", "date": "July 2013", "linkImage": "resources/images/uno01.jpg",
 	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/Uno_ita" ,"projectType" : "programming","projectPriority": "high", "video":"" }
