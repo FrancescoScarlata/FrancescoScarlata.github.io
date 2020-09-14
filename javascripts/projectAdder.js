@@ -54,7 +54,7 @@ function loadJson(xml,portfolioType) {
 function isTypeContained(project,portfolio){
 	var j;
 	console.log("portfolio length: "+portfolio.length);
-	for(j=0; j<porfolio.length; j++){
+	for(j=0; j<portfolio.length; j++){
 		console.log("compare: "+project+" with: "+portfolio[j]);
 		if(project==portfolio[j])
 			return true;
