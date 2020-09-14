@@ -1,3 +1,12 @@
+body{
+		/* The image used */
+  background-image: url("../resources/images/background_prova.png");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+	
+}
+
 
 /* Intro section. This will have the Title, a description and the featured title*/
 .intro {

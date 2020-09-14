@@ -41,7 +41,7 @@ function loadDoc(portfolioType) {
 function loadJson(xml,portfolioType) {
 	
 	var text= xml.responseText;
-	console.log("text pre parse: "+text);
+	//console.log("text pre parse: "+text);
 	
 	jsonObj= JSON.parse(text); // jsonstring to test
 	
@@ -49,8 +49,18 @@ function loadJson(xml,portfolioType) {
 }
 
 
-/* This method is called to make the sections inside the portfolio. For now it's just the general porfolio with all the elements in random */
 
+/* Method called to get if the project type is part of the porfolio elements.*/
+function isTypeContained(project,portfolio){
+	int j;
+	for(j=0; j<porfolio.length; j++){
+		if(project==porfolio[j])
+			return true;
+	}
+	return false;
+}
+
+/* This method is called to make the sections inside the portfolio. For now it's just the general porfolio with all the elements in random */
 function getPorfolio(portfolioType){	
 	console.log("projects: "+jsonObj.projects.length);
 	var highProjParent= document.getElementById("highProj");
@@ -67,7 +77,7 @@ function getPorfolio(portfolioType){
 	var i;
 	for(i=0; i<jsonObj.projects.length; i++){
 		
-		if(portfolioType=="general" || jsonObj.projects[i].projectType==portfolioType)
+		if(portfolioType[0]=="general" || isTypeContained(jsonObj.projects[i].projectType,portfolioType)) // to update this line. 
 		{
 			section= document.createElement("section");
 			section.setAttribute("class","project");
