@@ -53,8 +53,10 @@ function loadJson(xml,portfolioType) {
 /* Method called to get if the project type is part of the porfolio elements.*/
 function isTypeContained(project,portfolio){
 	int j;
+	console.log("portfolio length: "+portfolio.length);
 	for(j=0; j<porfolio.length; j++){
-		if(project==porfolio[j])
+		console.log("compare: "+project+" with: "+portfolio[j]);
+		if(project==portfolio[j])
 			return true;
 	}
 	return false;
@@ -77,7 +79,7 @@ function getPorfolio(portfolioType){
 	var i;
 	for(i=0; i<jsonObj.projects.length; i++){
 		
-		if(portfolioType[0]=="general" || isTypeContained(jsonObj.projects[i].projectType,portfolioType)) // to update this line. 
+		if(portfolioType[0]=="general" || isTypeContained(jsonObj.projects[i].projectType, portfolioType)) // to update this line. 
 		{
 			section= document.createElement("section");
 			section.setAttribute("class","project");
