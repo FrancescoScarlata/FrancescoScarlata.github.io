@@ -13,6 +13,9 @@
 	{ "title": "Fantasy Coaster VR", "date": "January 2018", "linkImage": "resources/images/fantasyCoasterVR01.png", 
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/fantasy-coaster-vr" ,"projectType" : "games", "projectPriority": "high" , "video":"" },
 
+{ "title": "VR examples ", "date": "Oct 2018- Jan 2020", "linkImage": "resources/images/vr01.jpg",
+	"description": "This game was made during the ...", "externalLink": "" ,"projectType" : "vr","projectPriority": "high", "video":"" },
+
 	{ "title": "Robodoom", "date": "July 2020", "linkImage": "resources/images/robodoom01.png", 
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/robo-doom" , "projectType" : "games","projectPriority": "low", "video":"" },
 
