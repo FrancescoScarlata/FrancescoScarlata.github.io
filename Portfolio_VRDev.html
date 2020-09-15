@@ -5,12 +5,17 @@
 	<meta name="author" content="Francesco Scarlata"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Francesco Scarlata's Portfolio</title>
+    <title>FS VR portofolio</title>
 
     <link rel="stylesheet" href="stylesheets/newIndexStyle.css">
+	<link rel="stylesheet" href="stylesheets/portfolioStyle.css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	<script type="module" src="javascripts/projectAdder.js"></script>
+    <script src="javascripts/scale.fix.js"></script>
+	
+	<script type="module" src="javascripts/vrAdder.js"></script>
   </head>
   <body>
   
@@ -21,7 +26,6 @@
 		
 			<h2 id="Jobs"> Game Dev, programmer </h2>
 		
-			<!-- Image here -->
 			<div >
 				<span class="main-area"><a href= index.html >Home </a > </span> <br>
 				<span class="main-area"><a href= Portfolio.html >Portfolio </a ></span> <br>
@@ -29,53 +33,54 @@
 				<span class="main-area"><a href= About.html >About </a ></span> <br>
 				
 				<hr>
+				
 				<span class="job-field"><a href= Portfolio_UnityDev.html >Unity developer </a > </span><br> 
 				<span class="job-field"><a href= Portfolio_GDesigner.html >Game designer </a ></span> <br>
 				<span class="job-field"><a href= Portfolio_Programmer.html >Programmer </a ></span> <br>
-				<span class="job-field"><a href= Portfolio_VRDev.html >Vr Developer (Unity) </a ></span> <br>
+				<span class="job-field"><a href= Portfolio_VRDev.html ><u>Vr Developer (Unity)</u> </a ></span> <br> 
 			</div>
 		</div>
 	
-		<div class="main">
+		<section class="main">
 
-			<h3>
-				<a id="Description" class="anchor" href="#designer-templates" aria-hidden="true">
-					<span aria-hidden="true" class="octicon octicon-link"></span>
-				</a>Who am i 
-			</h3>
-
-			<p> I'm a student and this is a try. </p>
+			<section class="intro">
+				<h1 id="porfolioTitle"> Unity Portfolio </h1>
+				<p> 
+				These are some of the projects made using Unity3D (a game engine). <br>
+				</p>
+				<br> <br>
+				
+			</section>
 			
+			<section class="projects">
+				
+				<!-- The single project: 
+				It has a image/ gif
+				It has a name
+				It has a the finish date
+				The photo is linked to the personal page
+				NOTE: These elements will be put as 
+				-->
+				
+				<section id="highProj">
+				<h1> Featured Projects </h1>
+				</section>
+				
+				<section id="lowProj">
+				<h1> Other Projects </h1>
+				</section>
+
+			</section>
 			
-			
-			<h3>
-			<!-- Here make a grid with all the games -->
-			<a id="Link of unity Games" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>WebGl games made with Unity </h3>
-
-			<p> <a href= BrowserProjects/New_big_twins/index.html >The big twins <!-- To add a cover image --> </a> </p>
-
-			<p> <a href= BrowserProjects/tesi/index.html >Duck game <!-- To add a cover image --> </a> </p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et vulputate nibh, sollicitudin convallis ante. Nam a tristique erat. Integer metus turpis, molestie eget elit sed, condimentum dapibus diam. Nam ac augue risus. Nulla ornare pellentesque pharetra. Vivamus semper leo sit amet augue pulvinar, nec congue sapien sollicitudin. In sollicitudin id turpis id cursus. Duis vitae lacus non ex bibendum faucibus et quis nisi. In felis ipsum, convallis commodo erat sed, egestas egestas dolor.
-
-Suspendisse sit amet suscipit est. Ut sed massa mi. Donec ut enim finibus, facilisis leo eget, pulvinar quam. Morbi ac sapien vulputate, laoreet nulla bibendum, fringilla dolor. Nam dignissim, diam ut consectetur tempor, nisl ipsum ullamcorper dui, eu lobortis elit arcu sit amet magna. Curabitur sollicitudin aliquam imperdiet. Donec nec varius justo, a pulvinar urna.
-
-Etiam ultricies at nibh venenatis consectetur. Curabitur hendrerit ante at hendrerit iaculis. Aliquam sit amet urna vel metus suscipit blandit ut sed magna. Sed bibendum tincidunt eros id sodales. Curabitur ipsum neque, interdum at eros vel, pellentesque ornare lectus. Donec sollicitudin urna in suscipit viverra. Quisque consequat, orci eget pharetra convallis, nulla est eleifend ipsum, non elementum nibh dolor semper nunc. Quisque non eros nec ipsum semper venenatis eu ac lectus. Suspendisse tempus, mauris ut hendrerit convallis, urna arcu pretium lorem, hendrerit eleifend nibh elit vel mi. Cras nec eleifend lectus. Nullam sed sapien laoreet, sodales est quis, hendrerit eros.
-
-Phasellus vel mauris quis ipsum mollis auctor. Proin at placerat arcu. Nullam accumsan egestas luctus. Nulla vitae massa quam. Etiam sit amet erat rutrum, sollicitudin leo in, ultrices velit. Nulla tincidunt, lectus porttitor pharetra eleifend, turpis turpis hendrerit ligula, id gravida felis lorem id ante. Phasellus ultrices vel lorem vitae volutpat. Nunc sit amet est mattis, rutrum neque quis, egestas nunc.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis augue nec suscipit vulputate. Nunc quis elit orci. Nullam vehicula ex ac eros lobortis euismod. Nam fringilla felis sit amet lobortis blandit. Donec turpis purus, facilisis a quam et, elementum lobortis eros. Vestibulum ac magna sed tortor elementum mollis. Morbi id ultrices tellus, nec venenatis elit. Cras sapien tellus, dignissim ut metus sed, scelerisque mattis ipsum. Fusce vel mi ante. Fusce porttitor lectus turpis. Sed ac turpis felis. Nulla aliquam efficitur mi at tempor. Sed sagittis justo neque. Duis sit amet lacus ac urna feugiat feugiat. Praesent euismod massa quis nunc aliquet, a fringilla eros dapibus.
-
-
-			<h3>
-				<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact
-			</h3>
-			Francesco Scarlata: francescoscarl93@gmail.com
-			<br/> <br/>
-			
-		</div>
-		 
+		</section>
+	 </div>
+	 
+	 <footer>
+		<p>Portfolio made using <a href="https://help.github.com/pages">Github pages.</a> <br> 
+			<small>Hosted on GitHub Pages</small> <br>
+<small> © Francesco Scarlata 2020 </small></p>
 	
-    <script src="javascripts/scale.fix.js"></script>
+	</footer>
     
   </body>
 </html>
