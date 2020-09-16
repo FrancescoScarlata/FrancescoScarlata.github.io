@@ -13,7 +13,7 @@
 	{ "title": "Fantasy Coaster VR", "date": "January 2018", "linkImage": "resources/images/fantasyCoasterVR01.png", 
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/fantasy-coaster-vr" ,"projectType" : "games", "projectPriority": "high" , "video":"" },
 
-{ "title": "VR examples ", "date": "Oct 2018- Jan 2020", "linkImage": "resources/images/vr01.jpg",
+	{ "title": "VR examples ", "date": "Oct 2018- Jan 2020", "linkImage": "resources/images/vr01.jpg",
 	"description": "This game was made during the ...", "externalLink": "" ,"projectType" : "vr","projectPriority": "high", "video":"" },
 
 	{ "title": "Robodoom", "date": "July 2020", "linkImage": "resources/images/robodoom01.png", 
@@ -31,13 +31,11 @@
 	{ "title": "The big twins", "date": "June 2015", "linkImage": "resources/images/theBigTwins01.png", 
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/the-big-twins" ,"projectType" : "games", "projectPriority": "low" , "video":"" },
 
-
 	{ "title": "Decision Tree Classifier (Python)", "date": "September 2018", "linkImage": "resources/images/decisionTree01.jpg",
 	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/DecisionTreeClassifier" ,"projectType" : "programming","projectPriority": "high", "video":"" },
 	
 	{ "title": "HRV using face recording (Python)", "date": "July 2018", "linkImage": "resources/images/hrv01.jpg",
 	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/IN-MCA_Scarlata" ,"projectType" : "programming","projectPriority": "high", "video":"" },
-
 
 	{ "title": "Uno! (Java)", "date": "July 2013", "linkImage": "resources/images/uno01.jpg",
 	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/Uno_ita" ,"projectType" : "programming","projectPriority": "low", "video":"" }
