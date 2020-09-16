@@ -1,41 +1,69 @@
 
+.intro{
+	text-align:left;
+	
+}
+
+.generalTitle{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30pt;
+	font-weight: 800;
+	text-align:left;
+	margin-top: 50px;
+}
+
+.generalHR{
+	border:0;
+	background:#777;
+	height:1px;
+	margin:20px; /* top, left, bottom */
+	max-width: 80%;
+	margin-left:10%;
+}
+
+.workInfo{
+	padding-left: 20px;
+}
 
 .titleInfo{
 	font-family: "Times New Roman", Times, serif;
 	font-size: 18pt;
-	font-weight: 800;
-	
-	
+	font-weight: 400;
 }
 
 .info{
 	font-family: "Times New Roman", Times, serif;
-	font-size: 12pt;
-	margin: 
+	font-size: 14pt;
+	text-align:left;
 }
 
 
 .jobWorkTitle{
 	font-family: "Times New Roman", Times, serif;
 	font-size: 24pt;
-	font-weight: 800;
-	
+	font-weight: 400;
+	text-align:left;
 }
 
 
 .company{
-		font-family: "Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 18pt;
-	font-weight: 400;
+	font-weight: 200;
+	text-align:left;
 }
 
 .timeperiod{
-		font-family: "Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 16pt;
-
+	font-style:italic;
+	text-align:left;
+	margin:5px;
 }
 
 .description{
-		font-family: "Times New Roman", Times, serif;
-	font-size: 12pt;	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14pt;
+	text-align:left;
+	margin:5px;	
 }
