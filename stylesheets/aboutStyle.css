@@ -5,7 +5,7 @@
 }
 
 .generalTitle{
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Times new Roman', Times, serif;
 	font-size: 30pt;
 	font-weight: 800;
 	text-align:left;
@@ -26,20 +26,20 @@
 }
 
 .titleInfo{
-	font-family: "Times New Roman", Times, serif;
+	/*font-family: "Times New Roman", Times, serif;*/
 	font-size: 18pt;
 	font-weight: 400;
 }
 
 .info{
-	font-family: "Times New Roman", Times, serif;
+	/*font-family: "Times New Roman", Times, serif;*/
 	font-size: 14pt;
 	text-align:left;
 }
 
 
 .jobWorkTitle{
-	font-family: "Times New Roman", Times, serif;
+	/*font-family: "Times New Roman", Times, serif;*/
 	font-size: 24pt;
 	font-weight: 400;
 	text-align:left;
@@ -47,14 +47,14 @@
 
 
 .company{
-	font-family: "Times New Roman", Times, serif;
+	/*font-family: "Times New Roman", Times, serif;*/
 	font-size: 18pt;
 	font-weight: 200;
 	text-align:left;
 }
 
 .timeperiod{
-	font-family: "Times New Roman", Times, serif;
+	/*font-family: "Times New Roman", Times, serif;*/
 	font-size: 16pt;
 	font-style:italic;
 	text-align:left;
@@ -62,7 +62,7 @@
 }
 
 .description{
-	font-family: "Times New Roman", Times, serif;
+	/*font-family: "Times New Roman", Times, serif;*/
 	font-size: 14pt;
 	text-align:left;
 	margin:5px;	

@@ -1,21 +1,6 @@
 var path= "../resources/jsons/projectInfos.json";
 /* testing  */
 
-var jsonString=	'{"projects" : ['+
-
-	'{ "title": "Robodoom", "date": "July 2020", "linkImage": "resources/images/robodoom01.png", '+
-	'"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/robo-doom" , "projectType" : "games",'+ '"projectPriority": "low", "video":"" },'+
-
-	'{ "title": "Diandao", "date": "July 2020", "linkImage": "resources/images/diandao01.png", '+
-	'"description": "This game was made during the ...", "externalLink": "https://polimi-game-collective.itch.io/diandao" ,"projectType" : "games", '+
-	'"projectPriority": "high", "video":"" },'+
-
-	'{ "title": "Uno! (Java)", "date": "July 2020", "linkImage": "resources/images/uno01.jpg",'+
-	'"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/Uno_ita","projectType" : "programs",'+
-	'"projectPriority": "high", "video":"" }'+
-']}';
-
-
 var jsonObj;
 
 /* This method will open the doc in the path and then it will parse it as json*/
@@ -110,16 +95,10 @@ function getPorfolio(portfolioType){
 			spanDate= document.createElement("span");
 			spanDate.setAttribute("class","projectDate");
 			spanDate.innerHTML=jsonObj.projects[i].date;
-			
-			spanType= document.createElement("span");
-			spanType.setAttribute("class","projectType");
-			spanType.innerHTML=jsonObj.projects[i].projectType;
-			
+					
 			innerDiv.appendChild(spanTitle);
 			innerDiv.appendChild(document.createElement("br"));
 			innerDiv.appendChild(spanDate);
-			innerDiv.appendChild(document.createElement("br"));
-			innerDiv.appendChild(spanType);
 			
 			section.appendChild(innerDiv);
 			if(jsonObj.projects[i].projectPriority=="high"){
