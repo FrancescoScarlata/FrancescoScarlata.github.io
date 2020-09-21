@@ -74,16 +74,26 @@ function getPorfolio(portfolioType){
 			img.setAttribute("src", jsonObj.projects[i].linkImage);
 			img.setAttribute("alt", jsonObj.projects[i].title);
 			
-			if(jsonObj.projects[i].externalLink.length>1){
+			/* first let's check for the detail page */
+			if(jsonObj.projects[i].detailsLink.length>1){
 				extlink=document.createElement("a");
-				extlink.setAttribute("href", jsonObj.projects[i].externalLink);
+				extlink.setAttribute("href", jsonObj.projects[i].detailsLink);
 				extlink.setAttribute("target", "_blank");
 				extlink.appendChild(img);
 				section.appendChild(extlink);
 			}
-			else{
+			else{ /* if there is not a detail page, get the external link */
+				if(jsonObj.projects[i].externalLink.length>1){
+					extlink=document.createElement("a");
+					extlink.setAttribute("href", jsonObj.projects[i].externalLink);
+					extlink.setAttribute("target", "_blank");
+					extlink.appendChild(img);
+					section.appendChild(extlink);
+				}
+				else{ /* if no link is there, just add the image w/o a link */
+					section.appendChild(img);
+				}
 				
-				section.appendChild(img);
 			}
 
 			innerDiv= document.createElement("div");
