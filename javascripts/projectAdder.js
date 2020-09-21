@@ -75,9 +75,9 @@ function getPorfolio(portfolioType){
 			img.setAttribute("alt", jsonObj.projects[i].title);
 			
 			/* first let's check for the detail page */
-			if(jsonObj.projects[i].detailsLink.length>1){
+			if(jsonObj.projects[i].detailLink.length>1){
 				extlink=document.createElement("a");
-				extlink.setAttribute("href", jsonObj.projects[i].detailsLink);
+				extlink.setAttribute("href", jsonObj.projects[i].detailLink);
 				extlink.setAttribute("target", "_blank");
 				extlink.appendChild(img);
 				section.appendChild(extlink);
