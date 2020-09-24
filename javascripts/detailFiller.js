@@ -64,8 +64,6 @@ function loadDetailsForPage(){
 			reference.innerHTML="here";
 			externalArea.appendChild(reference);
 		}
-		
-		
 	}
-	
 }
+loadDoc();
