@@ -1,14 +1,32 @@
 
+.details{
+	border: 1px dotted green;
+	width:90%;
+	float:left;
+}
+
+.dTitleDiv{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
 .dTitle{
 	
 	font-size: 30pt;
-	font-weight: 800;
-	margin-top: 50px;
+	font-weight: 600;
+	
 }
 
 .video{
-	
-	
+	border: 1px dotted yellow;
+	width:  60vw;
+	height: 33.75vw; /* 90*9/16 */
+}
+
+.videoDiv{
+	border: 1px dotted grey;
+	width:80%;
+	height:80%;
 }
 
 .releaseDate{

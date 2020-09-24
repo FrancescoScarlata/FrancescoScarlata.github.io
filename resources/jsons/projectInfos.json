@@ -4,8 +4,8 @@
 	{ "title": "Orpheus", "date": "December 2019", "linkImage": "resources/images/orpheus01.png", "detailLink": "DetailPage.html",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/orpheus" ,"projectType" : "games", "projectPriority": "high" , "video":"" },
 	
-	{ "title": "Diandao", "date": "Febrary/June 2018", "linkImage": "resources/images/diandao01.png", "detailLink": "DetailPage.html",
-	"description": "This game was made during the ...", "externalLink": "https://polimi-game-collective.itch.io/diandao" ,"projectType" : "games", "projectPriority": "high" , "video":"https://www.youtube.com/watch?v=KSobAPcIse0" },
+	{ "title": "Diandao", "date": "Febrary/June 2018", "linkImage": "resources/images/diandao01.png", "detailLink": "Diandao.html",
+	"description": "This game was made during the Course of Videogame design and programming, erogated by the Policlinico of Milan between September 2017 and Febrary 2018. <br> This project was made by 6 people and the project won the 1rst place for the course game and the best art direction in the New Game Designer event on June 2018. ", "externalLink": "https://polimi-game-collective.itch.io/diandao" ,"projectType" : "games", "projectPriority": "high" , "video":"https://www.youtube.com/embed/KSobAPcIse0" },
 		
 	{ "title": "Market of Freedonia", "date": "August 2020", "linkImage": "resources/images/market01.png", "detailLink": "DetailPage.html",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/market-of-freedonia" , "projectType" : "games","projectPriority": "high", "video":"https://www.youtube.com/watch?v=SXgd3B-0fX4" },
