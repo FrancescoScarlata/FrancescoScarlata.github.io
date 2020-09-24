@@ -1,17 +1,5 @@
 var path= "../resources/jsons/projectInfos.json";
 var jsonObj;
-
-<section class="details">
-				<div class="dTitleDiv"><span class="dTitle"> Orpheus </span></div>
-				<div class="videoDiv">
-					<iframe class="video" src="https://www.youtube.com/embed/3Dg2XccscyI"  > </iframe>
-				</div>
-				<p class="releaseDate"> December 2019 </p>
-				<p class="description"> "This game was made during the ..." </p>
-				<p class="external"> You can play the game *here* </p>
-			</section>
-			
-			
 			
 /* This method will open the doc in the path and then it will parse it as json*/
 function loadDoc() {
