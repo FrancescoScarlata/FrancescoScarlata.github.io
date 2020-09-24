@@ -43,7 +43,7 @@ function loadDetailsForPage(){
 	var i;
 	for(i=0; i<jsonObj.projects.length; i++){
 		
-		if(jsonObj.projects[i].title==doctitle){  /*If the title is found, then update the page */ 
+		if(jsonObj.projects[i].title==docTitle){  /*If the title is found, then update the page */ 
 			
 			spandTitle = document.getElementById("dTitle");
 			spandTitle.innerHTML = jsonObj.projects[i].title;
