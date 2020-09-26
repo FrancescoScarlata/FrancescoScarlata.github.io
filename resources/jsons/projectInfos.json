@@ -1,13 +1,13 @@
 {
 "projects" : [
 
-	{ "title": "Orpheus", "date": "December 2019", "linkImage": "resources/images/orpheus01.png", "detailLink": "DetailPage.html",
+	{ "title": "Orpheus", "date": "December 2019", "linkImage": "resources/images/orpheus01.png", "detailLink": "Orpheus.html",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/orpheus" ,"projectType" : "games", "projectPriority": "high" , "video":"" },
 	
 	{ "title": "Diandao", "date": "Febrary/June 2018", "linkImage": "resources/images/diandao01.png", "detailLink": "Diandao.html",
 	"description": "This game was made during the Course of Videogame design and programming, erogated by the Policlinico of Milan between September 2017 and Febrary 2018. <br> This project was made by 6 people and the project won the 1rst place for the course game and the best art direction in the New Game Designer event on June 2018. ", "externalLink": "https://polimi-game-collective.itch.io/diandao" ,"projectType" : "games", "projectPriority": "high" , "video":"https://www.youtube.com/embed/KSobAPcIse0" },
 		
-	{ "title": "Market of Freedonia", "date": "August 2020", "linkImage": "resources/images/market01.png", "detailLink": "DetailPage.html",
+	{ "title": "Market of Freedonia", "date": "August 2020", "linkImage": "resources/images/market01.png", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/market-of-freedonia" , "projectType" : "games","projectPriority": "high", "video":"https://www.youtube.com/watch?v=SXgd3B-0fX4" },
 	
 	{ "title": "Fantasy Coaster VR", "date": "January 2018", "linkImage": "resources/images/fantasyCoasterVR01.png", "detailLink": "DetailPage.html",
@@ -16,28 +16,28 @@
 	{ "title": "VR examples ", "date": "Oct 2018- Jan 2020", "linkImage": "resources/images/vr01.jpg", "detailLink": "DetailPage.html",
 	"description": "This game was made during the ...", "externalLink": "" ,"projectType" : "vr","projectPriority": "high", "video":"https://youtu.be/SuUGzb7c_9U" },
 
-	{ "title": "Robodoom", "date": "July 2020", "linkImage": "resources/images/robodoom01.png", "detailLink": "DetailPage.html",
+	{ "title": "Robodoom", "date": "July 2020", "linkImage": "resources/images/robodoom01.png", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/robo-doom" , "projectType" : "games","projectPriority": "low", "video":"https://youtu.be/3Dg2XccscyI" },
 
-	{ "title": "Millwars", "date": "June 2017", "linkImage": "resources/images/millwars01.png", "detailLink": "DetailPage.html",
+	{ "title": "Millwars", "date": "June 2017", "linkImage": "resources/images/millwars01.png", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/millwars" ,"projectType" : "design", "projectPriority": "low" , "video":"https://www.youtube.com/watch?v=n-P5_K8Ff-o" },
 	
-	{ "title": "Jennir Chronicles", "date": "January 2017", "linkImage": "resources/images/chronicles01.png", "detailLink": "DetailPage.html",
+	{ "title": "Jennir Chronicles", "date": "January 2017", "linkImage": "resources/images/chronicles01.png", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": "" ,"projectType" : "design", "projectPriority": "low" , "video":"" },
 
-	{ "title": "The duth Game (B. degree dissertation project)", "date": "January 2016", "linkImage": "resources/images/duthGame01.png", "detailLink": "DetailPage.html",
+	{ "title": "The duth Game (B. degree dissertation project)", "date": "January 2016", "linkImage": "resources/images/duthGame01.png", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": "BrowserProjects/tesi/index" ,"projectType" : "games", "projectPriority": "low" , "video":"" },
 
-	{ "title": "The big twins", "date": "June 2015", "linkImage": "resources/images/theBigTwins01.png", "detailLink": "DetailPage.html",
+	{ "title": "The big twins", "date": "June 2015", "linkImage": "resources/images/theBigTwins01.png", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/the-big-twins" ,"projectType" : "games", "projectPriority": "low" , "video":"" },
 
-	{ "title": "Decision Tree Classifier (Python)", "date": "September 2018", "linkImage": "resources/images/decisionTree01.jpg","detailLink": "DetailPage.html",
+	{ "title": "Decision Tree Classifier (Python)", "date": "September 2018", "linkImage": "resources/images/decisionTree01.jpg","detailLink": "",
 	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/DecisionTreeClassifier" ,"projectType" : "programming","projectPriority": "high", "video":"" },
 	
-	{ "title": "HRV using face recording (Python)", "date": "July 2018", "linkImage": "resources/images/hrv01.jpg", "detailLink": "DetailPage.html",
+	{ "title": "HRV using face recording (Python)", "date": "July 2018", "linkImage": "resources/images/hrv01.jpg", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/IN-MCA_Scarlata" ,"projectType" : "programming","projectPriority": "high", "video":"" },
 
-	{ "title": "Uno! (Java)", "date": "July 2013", "linkImage": "resources/images/uno01.jpg", "detailLink": "DetailPage.html",
+	{ "title": "Uno! (Java)", "date": "July 2013", "linkImage": "resources/images/uno01.jpg", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": " https://github.com/FrancescoScarlata/Uno_ita" ,"projectType" : "programming","projectPriority": "low", "video":"" }
 
 

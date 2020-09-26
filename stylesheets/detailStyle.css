@@ -1,6 +1,6 @@
 
 .details{
-	border: 1px dotted green;
+	/*border: 1px dotted green;*/
 	width:90%;
 	float:left;
 }
@@ -25,26 +25,29 @@
 }
 
 .video{
-	border: 1px dotted yellow;
+	/*border: 1px dotted yellow;*/
 	width:  60vw;
 	height: 33.75vw; /* 90*9/16 */
+
+	
 }
 
 #video{
-	border: 1px dotted yellow;
+	/*border: 1px dotted yellow;*/
 	width:  60vw;
 	height: 33.75vw; /* 90*9/16 */
 }
 
 .videoDiv{
-	border: 1px dotted grey;
+	/*border: 1px dotted grey;*/
 	width:80%;
 	height:80%;
+	margin: 50px;
 }
 
 .releaseDate{
 	
-	font-size: 24pt;
+	font-size: 14pt;
 	font-weight: 200;
 	
 }
@@ -68,12 +71,10 @@
 
 .external {
 	font-size: 12pt;
-	font-style:italic;
 	
 }
 
 #external {
 	font-size: 12pt;
-	font-style:italic;
 	
 }

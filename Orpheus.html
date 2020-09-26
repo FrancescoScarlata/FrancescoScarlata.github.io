@@ -5,7 +5,7 @@
 	<meta name="author" content="Francesco Scarlata"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Diandao</title>
+    <title>Orpheus</title>
 
     <link rel="stylesheet" href="stylesheets/newIndexStyle.css">
 	<link rel="stylesheet" href="stylesheets/detailStyle.css">
@@ -40,28 +40,21 @@
 		<section class="main">
 
 			<section class="details">
-				<div class="dTitleDiv"><span id="dTitle"> Diandao </span></div>
+				<div class="dTitleDiv"><span id="dTitle"> Orpheus </span></div>
 				<div class="videoDiv">
 					<iframe id="video" src="https://www.youtube.com/embed/KSobAPcIse0" allowfullscreen  > </iframe>
 				</div>
 				<!--<p id="releaseDate"> Febrary/June 2018 </p> -->
 				<p id="description"> 
-				This demo was made during the Course of "Videogame Design and Programming", erogated by the "Policlinico of Milan" between September 2017 and Febrary 2018. <br> 
-				This project was made by 6 people:
-				<ol>
-				<li>Francesco Scarlata (Lead programmer, project manager (programmer side) )</li>
-				<li>Giada Passerini (Team leader, designer, concept ideator)</li>
-				<li>Simone Lazzaretti (Programmer)</li>
-				<li> Chang Lin (Programmer) </li>
-				<li>Chris Malfasi (Composer, sound designer)</li>
-				<li>Silvia (2d artist)</li>
-				</ol>
+				This is a prototype of a roguelike-like in which the difficulty of the level changes dinamically based on the heart rate of the player.				
 				<br>
-				The project won the 1rst place among the VDP game candidates and won also the "Best Art Direction" in the "New Game Designer" event on June 2018.
-				
+				This was made as a dissertation project for the master degree in computer science, you can read my dissertation abstract *here* or the whole dissertation (in italian) *here*.
+				<br>
+				<br>
+				In short, it uses an algorithm running on Python to detect and capture the forehead of the player using the webcam, and from that it will estimate the heart rate in a period of time. Given that information, the heart rate is used in Unity to adjust the difficulty of the generation based heart rate value estimated, dividing the level in very small areas.
 				</p>
 				
-				<p id="external"> You can try the old demo <a href="https://polimi-game-collective.itch.io/diandao">here</a>. </p>
+				<p id="external"> You can try the prototype <a href="https://reaperscarl.itch.io/orpheus">here</a>. </p>
 			</section>
 			
 		</section>
