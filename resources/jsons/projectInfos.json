@@ -19,7 +19,7 @@
 	{ "title": "Robodoom", "date": "July 2020", "linkImage": "resources/images/robodoom01.png", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/robo-doom" , "projectType" : "games","projectPriority": "low", "video":"https://youtu.be/3Dg2XccscyI" },
 
-	{ "title": "Millwars", "date": "June 2017", "linkImage": "resources/images/millwars01.png", "detailLink": "",
+	{ "title": "Millwars", "date": "June 2017", "linkImage": "resources/images/millwars01.png", "detailLink": "Millwars.html",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/millwars" ,"projectType" : "design", "projectPriority": "low" , "video":"https://www.youtube.com/watch?v=n-P5_K8Ff-o" },
 	
 	{ "title": "Jennir Chronicles", "date": "January 2017", "linkImage": "resources/images/chronicles01.png", "detailLink": "",
