@@ -18,8 +18,8 @@ body, html {
 }
 
 .buttons{
-	font-size: 12pt;
-	font-size: min(3vw, 30px);
+	font-size: 16pt;
+	font-size: max(2.5vw, 40px);
 	
 	border-radius: 30px;
 	background-color: #444;
