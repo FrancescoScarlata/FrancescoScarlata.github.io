@@ -22,7 +22,7 @@
 	{ "title": "Millwars", "date": "June 2017", "linkImage": "resources/images/millwars01.png", "detailLink": "Millwars.html",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/millwars" ,"projectType" : "design", "projectPriority": "low" , "video":"https://www.youtube.com/watch?v=n-P5_K8Ff-o" },
 	
-	{ "title": "Jennir Chronicles", "date": "January 2017", "linkImage": "resources/images/chronicles01.png", "detailLink": "",
+	{ "title": "Jennir Chronicles", "date": "January 2017", "linkImage": "resources/images/chronicles01.png", "detailLink": "JennirChronicles.html",
 	"description": "This game was made during the ...", "externalLink": "" ,"projectType" : "design", "projectPriority": "low" , "video":"" },
 
 	{ "title": "The duth Game (B. degree dissertation project)", "date": "January 2016", "linkImage": "resources/images/duthGame01.png", "detailLink": "",
