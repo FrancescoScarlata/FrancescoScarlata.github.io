@@ -25,7 +25,7 @@
 	{ "title": "Jennir Chronicles", "date": "January 2017", "linkImage": "resources/images/chronicles01.png", "detailLink": "JennirChronicles.html",
 	"description": "This game was made during the ...", "externalLink": "" ,"projectType" : "design", "projectPriority": "low" , "video":"" },
 
-	{ "title": "The duth Game (B. degree dissertation project)", "date": "January 2016", "linkImage": "resources/images/duthGame01.png", "detailLink": "",
+	{ "title": "The duth Game (B. degree diss. project)", "date": "January 2016", "linkImage": "resources/images/duthGame01.png", "detailLink": "TheDuthGame.html",
 	"description": "This game was made during the ...", "externalLink": "BrowserProjects/tesi/index" ,"projectType" : "games", "projectPriority": "low" , "video":"" },
 
 	{ "title": "The big twins", "date": "June 2015", "linkImage": "resources/images/theBigTwins01.png", "detailLink": "",
