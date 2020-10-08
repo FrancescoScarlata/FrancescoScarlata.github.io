@@ -2,7 +2,7 @@
 "projects" : [
 
 	{ "title": "Orpheus", "date": "December 2019", "linkImage": "resources/images/orpheus01.png", "detailLink": "Orpheus.html",
-	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/orpheus" ,"projectType" : "games", "projectPriority": "high" , "video":"" },
+	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/orpheus" ,"projectType" : "design", "projectPriority": "high" , "video":"" },
 	
 	{ "title": "Diandao", "date": "Febrary/June 2018", "linkImage": "resources/images/diandao01.png", "detailLink": "Diandao.html",
 	"description": "This game was made during the Course of Videogame design and programming, erogated by the Policlinico of Milan between September 2017 and Febrary 2018. <br> This project was made by 6 people and the project won the 1rst place for the course game and the best art direction in the New Game Designer event on June 2018. ", "externalLink": "https://polimi-game-collective.itch.io/diandao" ,"projectType" : "games", "projectPriority": "high" , "video":"https://www.youtube.com/embed/KSobAPcIse0" },
@@ -17,7 +17,7 @@
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/robo-doom" , "projectType" : "games","projectPriority": "low", "video":"https://youtu.be/3Dg2XccscyI" },
 
 	{ "title": "Fantasy Coaster VR", "date": "January 2018", "linkImage": "resources/images/fantasyCoasterVR01.png", "detailLink": "",
-	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/fantasy-coaster-vr" ,"projectType" : "games", "projectPriority": "low" , "video":"" },
+	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/fantasy-coaster-vr" ,"projectType" : "vr", "projectPriority": "low" , "video":"" },
 
 	{ "title": "Millwars", "date": "June 2017", "linkImage": "resources/images/millwars01.png", "detailLink": "Millwars.html",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/millwars" ,"projectType" : "design", "projectPriority": "low" , "video":"https://www.youtube.com/watch?v=n-P5_K8Ff-o" },

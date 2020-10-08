@@ -1,11 +1,18 @@
 
+.imgCentered{
+	position: relative;
+	left: 20vw;
+	margin: 0 auto;
+	
+}
+
 .intro{
 	text-align:left;
 	
 }
 
 .generalTitle{
-	font-family: 'Times new Roman', Times, serif;
+	font-family: 'Open Sans', Times, sans-serif;
 	font-size: 30pt;
 	font-weight: 800;
 	text-align:left;
@@ -23,6 +30,7 @@
 
 .workInfo{
 	padding-left: 20px;
+	font-family: 'Roboto', Times, sans-serif;
 }
 
 .titleInfo{
@@ -33,6 +41,7 @@
 
 .info{
 	/*font-family: "Times New Roman", Times, serif;*/
+	font-family: 'Roboto', Times, sans-serif;
 	font-size: 14pt;
 	text-align:left;
 }
