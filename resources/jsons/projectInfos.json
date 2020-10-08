@@ -9,15 +9,15 @@
 		
 	{ "title": "Market of Freedonia", "date": "August 2020", "linkImage": "resources/images/market01.png", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/market-of-freedonia" , "projectType" : "games","projectPriority": "high", "video":"https://www.youtube.com/watch?v=SXgd3B-0fX4" },
-	
-	{ "title": "Fantasy Coaster VR", "date": "January 2018", "linkImage": "resources/images/fantasyCoasterVR01.png", "detailLink": "",
-	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/fantasy-coaster-vr" ,"projectType" : "games", "projectPriority": "high" , "video":"" },
 
 	{ "title": "VR examples ", "date": "Oct 2018- Jan 2020", "linkImage": "resources/images/vr01.jpg", "detailLink": "VRExamples.html",
 	"description": "This game was made during the ...", "externalLink": "" ,"projectType" : "vr","projectPriority": "high", "video":"https://youtu.be/SuUGzb7c_9U" },
 
 	{ "title": "Robodoom", "date": "July 2020", "linkImage": "resources/images/robodoom01.png", "detailLink": "",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/robo-doom" , "projectType" : "games","projectPriority": "low", "video":"https://youtu.be/3Dg2XccscyI" },
+
+	{ "title": "Fantasy Coaster VR", "date": "January 2018", "linkImage": "resources/images/fantasyCoasterVR01.png", "detailLink": "",
+	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/fantasy-coaster-vr" ,"projectType" : "games", "projectPriority": "low" , "video":"" },
 
 	{ "title": "Millwars", "date": "June 2017", "linkImage": "resources/images/millwars01.png", "detailLink": "Millwars.html",
 	"description": "This game was made during the ...", "externalLink": "https://reaperscarl.itch.io/millwars" ,"projectType" : "design", "projectPriority": "low" , "video":"https://www.youtube.com/watch?v=n-P5_K8Ff-o" },
