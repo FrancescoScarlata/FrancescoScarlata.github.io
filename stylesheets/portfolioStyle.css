@@ -36,14 +36,14 @@ body{
 
 .projectTitle {
 	/*font-family: "Times New Roman", Times, serif;*/
-	font-size: max(2vw, 18px);
-	font-weight: 800;
+	font-size: max(1.5vw, 18px);
+	font-weight: 600;
 }
 
 .projectDate {
 	/*-family: "Times New Roman", Times, serif;*/
-	font-size: max(1.5vw, 14px);
-	font-weight: 600;
+	font-size: max(1.2vw, 14px);
+	font-weight: 200;
 }
 
 .projectImage{
@@ -54,7 +54,7 @@ body{
 
 .infoDiv{
 	text-align: center;
-	height: 60px;
+	height: 80px;
 	background-color: rgba(20, 20, 20, 0.5);
 	border-radius: 0px 0px 30px 30px;
 }
