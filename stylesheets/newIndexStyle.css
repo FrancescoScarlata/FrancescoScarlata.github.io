@@ -71,7 +71,7 @@
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .row, .navbar {   
     flex-direction: column;
   }
@@ -272,7 +272,7 @@ body {
 	background-color: #555;
 	color:#eee;
 	margin: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: Roboto, sans-serif;
 	font-weight:400;
 }
 
@@ -284,7 +284,7 @@ span.job-field{
 }
 
 .main-area {
-	font-family: "Roboto", Times, serif;
+	font-family: Roboto, Times, serif;
 	font-size: 14pt;
 	font-weight: 400;
 	padding: 10px 10px 10px 10px; 
@@ -299,9 +299,12 @@ span.job-field{
 
 
 #Jobs{
-	font-family: "Roboto", Times, serif;
+	font-family: Roboto, Times, serif;
 }
 
+footer > p{
+	font-size: min(1vw,10pt);
+}
 
 
 

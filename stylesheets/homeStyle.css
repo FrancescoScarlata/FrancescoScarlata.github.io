@@ -10,11 +10,24 @@ body, html {
 
   /* Full height */
   height: 100%;
-
+	
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.profileImage{
+	background-position: center;
+	width: 50vw;
+	height: 50vh;
+	min-width: 300px;
+	max-width: 400px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .buttons{
@@ -31,17 +44,19 @@ body, html {
 
 .logos{
 	font-size: 12pt;
-	height:8%;
-	width:8%;
+	width: 8%;
+	height: 8%;
+	min-width: 30px;
+	min-height: 30px;
+	max-width: 200px;
+	max-height: 200px;
 	border-radius: 10px;
 	margin: 1%;
-
 }
-
 
 .nameInfos{
 	position: absolute;
-	top: 40%;
+	top: 15%;
 	left:50%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -63,12 +78,12 @@ body, html {
 
 #MyName{		
 	font-size: 40pt;
-	font-size: min(4vw, 50px);
+	font-size: max(4vw, 28px);
 }
 
 #Jobs{		
 	font-size: 24pt;
-	font-size: min(2vw, 24px);
+	font-size: max(1.5vw, 18px);
 }
 
 
